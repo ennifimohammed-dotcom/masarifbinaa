@@ -35,4 +35,3 @@ jobs:
         with:
           name: masarifbinaa-app
           path: build/app/outputs/flutter-apk/app-release.apk
-``
