@@ -1,0 +1,35 @@
+name: ennifi_construction
+description: تطبيق متابعة مصاريف البناء - ENNIFI 2025
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  fl_chart: ^0.66.0
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
